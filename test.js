@@ -44,11 +44,9 @@ it('should returns array with sorted as desc', function () {
 });
 
 it('should returns array with sorted tag', function () {
-	var filtered = tags.map(function (tag) {
+	var sorted = sortSemver.asc(tags.map(function (tag) {
 		return tag.ref;
-	});
-
-	var sorted = sortSemver.asc(filtered);
+	}));
 
 	assert.ok(sorted[0].indexOf('v0.1.0') >= 0);
 	assert.ok(sorted[1].indexOf('v0.1.1') >= 0);

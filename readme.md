@@ -23,10 +23,10 @@ var version = [
 
 var semverSort = require('semver-sort');
 
-semverSort().acs(version);
+semverSort.acs(version);
 //=> [ 'v0.0.2', 'v0.0.9', 'v0.1.1', '1.1.1', '1.2.2', '2.0.1' ]
 
-semverSort().desc(version);
+semverSort.desc(version);
 //=> [ '2.0.1', '1.2.2', '1.1.1', 'v0.1.1', 'v0.0.9', 'v0.0.2' ]
 
 var tags = [
@@ -39,7 +39,9 @@ var tags = [
 	{ref: 'refs/tags/v1.0.0'}
 ];
 
-semverSort().acs(version);
+sortSemver.asc(tags.map(function (tag) {
+	return tag.ref;
+}));
 //=> [ 'refs/tags/v0.1.0', 'refs/tags/v0.1.1', 'refs/tags/v1.0.0', 'refs/tags/v1.0.1', 'refs/tags/v1.0.2', 'refs/tags/v1.0.3', 'refs/tags/v1.1.0' ]
 ```
 
