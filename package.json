@@ -1,0 +1,40 @@
+{
+  "name": "semver-sort",
+  "version": "0.0.0",
+  "description": "Sort array of semver string even which is exist in a strings.",
+  "license": "MIT",
+  "repository": "ragingwind/semver-sort",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "sort",
+    "semver",
+    "sort semver"
+  ],
+  "dependencies": {
+    "semver": "^5.0.3",
+    "semver-regex": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
