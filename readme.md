@@ -1,4 +1,4 @@
-# semver-sort [![Build Status](https://travis-ci.org/ragingwind/node-semver-sort.svg?branch=master)](https://travis-ci.org/ragingwind/node-semver-sort)
+# semver-sort [![Build Status](https://travis-ci.org/ragingwind/semver-sort.svg?branch=master)](https://travis-ci.org/ragingwind/semver-sort)
 
 > Sort array of semver string even which is exist in a strings.
 

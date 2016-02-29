@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Sort array of semver string even which is exist in a strings.",
   "license": "MIT",
-  "repository": "ragingwind/node-semver-sort",
+  "repository": "ragingwind/semver-sort",
   "author": {
     "name": "ragingwind",
     "email": "ragingwind@gmail.com",
