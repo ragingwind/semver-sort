@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && mocha"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -28,13 +28,13 @@
     "semver-regex": "^1.0.0"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "xo": "^0.7.1"
+    "ava": "^0.12.0",
+    "xo": "^0.10.0"
   },
+
   "xo": {
-    "envs": [
-      "node",
-      "mocha"
+    "ignore": [
+      "test.js"
     ]
   }
 }
