@@ -23,7 +23,7 @@ var version = [
 
 var semverSort = require('semver-sort');
 
-semverSort.acs(version);
+semverSort.asc(version);
 //=> [ 'v0.0.2', 'v0.0.9', 'v0.1.1', '1.1.1', '1.2.2', '2.0.1' ]
 
 semverSort.desc(version);
