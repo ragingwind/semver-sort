@@ -1,6 +1,6 @@
 {
   "name": "semver-sort",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sort array of semver string even which is exist in a strings.",
   "license": "MIT",
   "repository": "ragingwind/semver-sort",
@@ -31,7 +31,6 @@
     "ava": "^0.12.0",
     "xo": "^0.10.0"
   },
-
   "xo": {
     "ignore": [
       "test.js"
