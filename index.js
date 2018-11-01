@@ -21,7 +21,7 @@ function sort(semvers, compare) {
 
 module.exports = {
 	asc: function (semvers) {
-		return sort(semvers, function (v1, v2, loose = null) {
+		return sort(semvers, function (v1, v2, loose) {
 			try {
 				return semver.compare(v1, v2, loose);
 			} catch (e) {
@@ -41,7 +41,7 @@ module.exports = {
 	},
 
 	desc: function (semvers) {
-		return sort(semvers, function (v1, v2, loose = null) {
+		return sort(semvers, function (v1, v2, loose) {
 			try {
 				return semver.rcompare(v1, v2, loose);
 			} catch (e) {
