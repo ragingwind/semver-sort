@@ -1,6 +1,5 @@
 'use strict';
 
-var semver = require('semver');
 var semverRegex = require('semver-regex');
 
 function sort(semvers, compare) {
