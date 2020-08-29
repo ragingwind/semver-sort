@@ -39,7 +39,7 @@ var tags = [
 	{ref: 'refs/tags/v1.0.0'}
 ];
 
-sortSemver.asc(tags.map(function (tag) {
+semverSort.asc(tags.map(function (tag) {
 	return tag.ref;
 }));
 //=> [ 'refs/tags/v0.1.0', 'refs/tags/v0.1.1', 'refs/tags/v1.0.0', 'refs/tags/v1.0.1', 'refs/tags/v1.0.2', 'refs/tags/v1.0.3', 'refs/tags/v1.1.0' ]
